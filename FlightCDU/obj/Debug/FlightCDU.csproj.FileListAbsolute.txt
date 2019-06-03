@@ -1,0 +1,10 @@
+C:\Users\njche\source\repos\FlightCDU\FlightCDU\bin\Debug\FlightCDU.exe.config
+C:\Users\njche\source\repos\FlightCDU\FlightCDU\bin\Debug\FlightCDU.exe
+C:\Users\njche\source\repos\FlightCDU\FlightCDU\bin\Debug\FlightCDU.pdb
+C:\Users\njche\source\repos\FlightCDU\FlightCDU\obj\Debug\FlightCDU.csprojAssemblyReference.cache
+C:\Users\njche\source\repos\FlightCDU\FlightCDU\obj\Debug\FlightCDU.Form1.resources
+C:\Users\njche\source\repos\FlightCDU\FlightCDU\obj\Debug\FlightCDU.Properties.Resources.resources
+C:\Users\njche\source\repos\FlightCDU\FlightCDU\obj\Debug\FlightCDU.csproj.GenerateResource.cache
+C:\Users\njche\source\repos\FlightCDU\FlightCDU\obj\Debug\FlightCDU.csproj.CoreCompileInputs.cache
+C:\Users\njche\source\repos\FlightCDU\FlightCDU\obj\Debug\FlightCDU.exe
+C:\Users\njche\source\repos\FlightCDU\FlightCDU\obj\Debug\FlightCDU.pdb
