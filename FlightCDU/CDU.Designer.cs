@@ -1,6 +1,6 @@
 ﻿namespace FlightCDU
 {
-    partial class Form1
+    partial class CDU
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
-            // Form1
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Location = new System.Drawing.Point(42, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(290, 213);
+            this.panel1.TabIndex = 0;
+            // 
+            // CDU
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(383, 450);
-            this.Name = "Form1";
+            this.BackColor = System.Drawing.Color.Gray;
+            this.ClientSize = new System.Drawing.Size(383, 544);
+            this.Controls.Add(this.panel1);
+            this.Name = "CDU";
             this.Text = "CDU";
+            this.Load += new System.EventHandler(this.CDU_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

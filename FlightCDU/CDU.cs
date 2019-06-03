@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace FlightCDU
 {
-    public partial class Form1 : Form
+    public partial class CDU : Form
     {
-        public Form1()
+        public CDU()
         {
             InitializeComponent();
+        }
+
+        private void CDU_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
