@@ -63,8 +63,11 @@ namespace FlightCDU
                     }
                     else if (Program.inputMode == 1)
                     {
-                        lblInput.Text = Program.message;
                         WriteText(Program.message);
+                    }
+                    else if (Program.inputMode == 2)
+                    {
+                        WriteText("DELETE");
                     }
                 }
                 catch (System.InvalidOperationException ex)
@@ -93,6 +96,34 @@ namespace FlightCDU
         {
             // stop the synchronisation when closing
             t.Abort();
+        }
+
+        private void BtnClear_Click(object sender, EventArgs e)
+        {
+            if (Program.inputMode == 0 && Program.input.Length > 0)
+            {
+                // clear the last character of the input
+                Program.input = Program.input.Substring(0, Program.input.Length - 1);
+            }
+            else if (Program.inputMode == 1)
+            {
+                // clear the message and revert to input mode
+                Program.message = "";
+                Program.inputMode = 0;
+            }
+            else if (Program.inputMode == 2)
+            {
+                // clear the delete and revert to input mode
+                Program.inputMode = 0;
+            }
+        }
+
+        private void BtnDelete_Click(object sender, EventArgs e)
+        {
+            if (Program.inputMode == 0 && Program.input.Equals(""))
+            {
+                Program.inputMode = 2;
+            }
         }
     }
 }

@@ -541,6 +541,7 @@
             this.btnDelete.TabIndex = 44;
             this.btnDelete.Text = "DEL";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
             // 
             // btnSlash
             // 
@@ -561,6 +562,7 @@
             this.btnClear.TabIndex = 46;
             this.btnClear.Text = "CLR";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.BtnClear_Click);
             // 
             // btnPeriod
             // 

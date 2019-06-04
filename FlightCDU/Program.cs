@@ -37,6 +37,10 @@ namespace FlightCDU
             Application.Run(cdu);
         }
 
-
+        public static void ShowMessage(string txt)
+        {
+            inputMode = 1;
+            message = txt;
+        }
     }
 }
