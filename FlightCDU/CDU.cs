@@ -12,6 +12,9 @@ namespace FlightCDU
 {
     public partial class CDU : Form
     {
+
+        
+
         public CDU()
         {
             InitializeComponent();
@@ -22,7 +25,18 @@ namespace FlightCDU
 
         }
 
-        private void Button5_Click(object sender, EventArgs e)
+        private void btnKeyPressed(object sender, EventArgs e)
+        {
+            string txtEntered = ((Button)sender).Text;
+            if (txtEntered.Equals("SP"))
+            {
+                txtEntered = " ";
+            }
+            Program.input += txtEntered;
+            ActionInterpreter.showInput();
+        }
+
+        private void SideKeyPressed(object sender, EventArgs e)
         {
 
         }

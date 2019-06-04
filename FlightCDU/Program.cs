@@ -11,6 +11,11 @@ namespace FlightCDU
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// 
+
+        // public properties
+        public static string input = "";
+
         [STAThread]
         static void Main()
         {
