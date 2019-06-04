@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.pnlScreen = new System.Windows.Forms.Panel();
+            this.lblInput = new System.Windows.Forms.Label();
             this.btnL1 = new System.Windows.Forms.Button();
             this.btnL2 = new System.Windows.Forms.Button();
             this.btnL3 = new System.Windows.Forms.Button();
@@ -77,16 +78,29 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.btnPeriod = new System.Windows.Forms.Button();
             this.pnlKeyboardLetters = new System.Windows.Forms.Panel();
+            this.pnlScreen.SuspendLayout();
             this.pnlKeyboardLetters.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlScreen
             // 
             this.pnlScreen.BackColor = System.Drawing.Color.Black;
+            this.pnlScreen.Controls.Add(this.lblInput);
             this.pnlScreen.Location = new System.Drawing.Point(55, 12);
             this.pnlScreen.Name = "pnlScreen";
             this.pnlScreen.Size = new System.Drawing.Size(354, 323);
             this.pnlScreen.TabIndex = 0;
+            // 
+            // lblInput
+            // 
+            this.lblInput.AutoSize = true;
+            this.lblInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblInput.ForeColor = System.Drawing.Color.White;
+            this.lblInput.Location = new System.Drawing.Point(0, 298);
+            this.lblInput.Name = "lblInput";
+            this.lblInput.Size = new System.Drawing.Size(118, 25);
+            this.lblInput.TabIndex = 49;
+            this.lblInput.Text = "SampleText";
             // 
             // btnL1
             // 
@@ -504,7 +518,7 @@
             this.btnß.Name = "btnß";
             this.btnß.Size = new System.Drawing.Size(40, 40);
             this.btnß.TabIndex = 42;
-            this.btnß.Text = "ẞ";
+            this.btnß.Text = "ß";
             this.btnß.UseVisualStyleBackColor = true;
             this.btnß.Click += new System.EventHandler(this.btnKeyPressed);
             // 
@@ -536,6 +550,7 @@
             this.btnSlash.TabIndex = 45;
             this.btnSlash.Text = "/";
             this.btnSlash.UseVisualStyleBackColor = true;
+            this.btnSlash.Click += new System.EventHandler(this.btnKeyPressed);
             // 
             // btnClear
             // 
@@ -594,7 +609,7 @@
             this.pnlKeyboardLetters.Controls.Add(this.btnP);
             this.pnlKeyboardLetters.Controls.Add(this.btnN);
             this.pnlKeyboardLetters.Controls.Add(this.btnO);
-            this.pnlKeyboardLetters.Location = new System.Drawing.Point(182, 367);
+            this.pnlKeyboardLetters.Location = new System.Drawing.Point(192, 368);
             this.pnlKeyboardLetters.Name = "pnlKeyboardLetters";
             this.pnlKeyboardLetters.Size = new System.Drawing.Size(258, 350);
             this.pnlKeyboardLetters.TabIndex = 48;
@@ -621,7 +636,10 @@
             this.Controls.Add(this.pnlScreen);
             this.Name = "CDU";
             this.Text = "CDU";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.CDU_FormClosing);
             this.Load += new System.EventHandler(this.CDU_Load);
+            this.pnlScreen.ResumeLayout(false);
+            this.pnlScreen.PerformLayout();
             this.pnlKeyboardLetters.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -678,6 +696,7 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnPeriod;
         private System.Windows.Forms.Panel pnlKeyboardLetters;
+        private System.Windows.Forms.Label lblInput;
     }
 }
 
