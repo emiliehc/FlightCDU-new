@@ -78,19 +78,45 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.btnPeriod = new System.Windows.Forms.Button();
             this.pnlKeyboardLetters = new System.Windows.Forms.Panel();
-            this.pnlNumPad = new System.Windows.Forms.Panel();
-            this.btn1 = new System.Windows.Forms.Button();
-            this.btn2 = new System.Windows.Forms.Button();
-            this.btn3 = new System.Windows.Forms.Button();
-            this.btn4 = new System.Windows.Forms.Button();
-            this.btn5 = new System.Windows.Forms.Button();
-            this.btn6 = new System.Windows.Forms.Button();
-            this.btn7 = new System.Windows.Forms.Button();
-            this.btn8 = new System.Windows.Forms.Button();
-            this.btn9 = new System.Windows.Forms.Button();
-            this.btn0 = new System.Windows.Forms.Button();
-            this.btnPlusMinus = new System.Windows.Forms.Button();
             this.btnComma = new System.Windows.Forms.Button();
+            this.pnlNumPad = new System.Windows.Forms.Panel();
+            this.btn6 = new System.Windows.Forms.Button();
+            this.btnPlusMinus = new System.Windows.Forms.Button();
+            this.btn0 = new System.Windows.Forms.Button();
+            this.btn9 = new System.Windows.Forms.Button();
+            this.btn8 = new System.Windows.Forms.Button();
+            this.btn7 = new System.Windows.Forms.Button();
+            this.btn5 = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.lblL1 = new System.Windows.Forms.Label();
+            this.txtL1 = new System.Windows.Forms.Label();
+            this.txtL2 = new System.Windows.Forms.Label();
+            this.lblL2 = new System.Windows.Forms.Label();
+            this.lblL3 = new System.Windows.Forms.Label();
+            this.lblL4 = new System.Windows.Forms.Label();
+            this.lblL5 = new System.Windows.Forms.Label();
+            this.lblL6 = new System.Windows.Forms.Label();
+            this.txtL3 = new System.Windows.Forms.Label();
+            this.txtL4 = new System.Windows.Forms.Label();
+            this.txtL5 = new System.Windows.Forms.Label();
+            this.txtL6 = new System.Windows.Forms.Label();
+            this.txtR6 = new System.Windows.Forms.Label();
+            this.txtR5 = new System.Windows.Forms.Label();
+            this.txtR4 = new System.Windows.Forms.Label();
+            this.txtR3 = new System.Windows.Forms.Label();
+            this.lblR6 = new System.Windows.Forms.Label();
+            this.lblR5 = new System.Windows.Forms.Label();
+            this.lblR4 = new System.Windows.Forms.Label();
+            this.lblR3 = new System.Windows.Forms.Label();
+            this.lblR2 = new System.Windows.Forms.Label();
+            this.txtR2 = new System.Windows.Forms.Label();
+            this.txtR1 = new System.Windows.Forms.Label();
+            this.lblR1 = new System.Windows.Forms.Label();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.lblPage = new System.Windows.Forms.Label();
             this.pnlScreen.SuspendLayout();
             this.pnlKeyboardLetters.SuspendLayout();
             this.pnlNumPad.SuspendLayout();
@@ -99,6 +125,32 @@
             // pnlScreen
             // 
             this.pnlScreen.BackColor = System.Drawing.Color.Black;
+            this.pnlScreen.Controls.Add(this.lblPage);
+            this.pnlScreen.Controls.Add(this.lblTitle);
+            this.pnlScreen.Controls.Add(this.txtR6);
+            this.pnlScreen.Controls.Add(this.txtR5);
+            this.pnlScreen.Controls.Add(this.txtR4);
+            this.pnlScreen.Controls.Add(this.txtR3);
+            this.pnlScreen.Controls.Add(this.lblR6);
+            this.pnlScreen.Controls.Add(this.lblR5);
+            this.pnlScreen.Controls.Add(this.lblR4);
+            this.pnlScreen.Controls.Add(this.lblR3);
+            this.pnlScreen.Controls.Add(this.lblR2);
+            this.pnlScreen.Controls.Add(this.txtR2);
+            this.pnlScreen.Controls.Add(this.txtR1);
+            this.pnlScreen.Controls.Add(this.lblR1);
+            this.pnlScreen.Controls.Add(this.txtL6);
+            this.pnlScreen.Controls.Add(this.txtL5);
+            this.pnlScreen.Controls.Add(this.txtL4);
+            this.pnlScreen.Controls.Add(this.txtL3);
+            this.pnlScreen.Controls.Add(this.lblL6);
+            this.pnlScreen.Controls.Add(this.lblL5);
+            this.pnlScreen.Controls.Add(this.lblL4);
+            this.pnlScreen.Controls.Add(this.lblL3);
+            this.pnlScreen.Controls.Add(this.lblL2);
+            this.pnlScreen.Controls.Add(this.txtL2);
+            this.pnlScreen.Controls.Add(this.txtL1);
+            this.pnlScreen.Controls.Add(this.lblL1);
             this.pnlScreen.Controls.Add(this.lblInput);
             this.pnlScreen.Location = new System.Drawing.Point(55, 12);
             this.pnlScreen.Name = "pnlScreen";
@@ -631,6 +683,18 @@
             this.pnlKeyboardLetters.Size = new System.Drawing.Size(254, 350);
             this.pnlKeyboardLetters.TabIndex = 48;
             // 
+            // btnComma
+            // 
+            this.btnComma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnComma.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnComma.Location = new System.Drawing.Point(17, 292);
+            this.btnComma.Name = "btnComma";
+            this.btnComma.Size = new System.Drawing.Size(40, 40);
+            this.btnComma.TabIndex = 59;
+            this.btnComma.Text = ",";
+            this.btnComma.UseVisualStyleBackColor = true;
+            this.btnComma.Click += new System.EventHandler(this.btnKeyPressed);
+            // 
             // pnlNumPad
             // 
             this.pnlNumPad.Controls.Add(this.btn6);
@@ -650,56 +714,6 @@
             this.pnlNumPad.Size = new System.Drawing.Size(161, 207);
             this.pnlNumPad.TabIndex = 49;
             // 
-            // btn1
-            // 
-            this.btn1.Location = new System.Drawing.Point(19, 11);
-            this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(40, 40);
-            this.btn1.TabIndex = 48;
-            this.btn1.Text = "1";
-            this.btn1.UseVisualStyleBackColor = true;
-            this.btn1.Click += new System.EventHandler(this.btnKeyPressed);
-            // 
-            // btn2
-            // 
-            this.btn2.Location = new System.Drawing.Point(65, 11);
-            this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(40, 40);
-            this.btn2.TabIndex = 49;
-            this.btn2.Text = "2";
-            this.btn2.UseVisualStyleBackColor = true;
-            this.btn2.Click += new System.EventHandler(this.btnKeyPressed);
-            // 
-            // btn3
-            // 
-            this.btn3.Location = new System.Drawing.Point(111, 11);
-            this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(40, 40);
-            this.btn3.TabIndex = 50;
-            this.btn3.Text = "3";
-            this.btn3.UseVisualStyleBackColor = true;
-            this.btn3.Click += new System.EventHandler(this.btnKeyPressed);
-            // 
-            // btn4
-            // 
-            this.btn4.Location = new System.Drawing.Point(19, 57);
-            this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(40, 40);
-            this.btn4.TabIndex = 51;
-            this.btn4.Text = "4";
-            this.btn4.UseVisualStyleBackColor = true;
-            this.btn4.Click += new System.EventHandler(this.btnKeyPressed);
-            // 
-            // btn5
-            // 
-            this.btn5.Location = new System.Drawing.Point(65, 57);
-            this.btn5.Name = "btn5";
-            this.btn5.Size = new System.Drawing.Size(40, 40);
-            this.btn5.TabIndex = 52;
-            this.btn5.Text = "5";
-            this.btn5.UseVisualStyleBackColor = true;
-            this.btn5.Click += new System.EventHandler(this.btnKeyPressed);
-            // 
             // btn6
             // 
             this.btn6.Location = new System.Drawing.Point(111, 57);
@@ -709,46 +723,6 @@
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = true;
             this.btn6.Click += new System.EventHandler(this.btnKeyPressed);
-            // 
-            // btn7
-            // 
-            this.btn7.Location = new System.Drawing.Point(19, 103);
-            this.btn7.Name = "btn7";
-            this.btn7.Size = new System.Drawing.Size(40, 40);
-            this.btn7.TabIndex = 54;
-            this.btn7.Text = "7";
-            this.btn7.UseVisualStyleBackColor = true;
-            this.btn7.Click += new System.EventHandler(this.btnKeyPressed);
-            // 
-            // btn8
-            // 
-            this.btn8.Location = new System.Drawing.Point(65, 103);
-            this.btn8.Name = "btn8";
-            this.btn8.Size = new System.Drawing.Size(40, 40);
-            this.btn8.TabIndex = 55;
-            this.btn8.Text = "8";
-            this.btn8.UseVisualStyleBackColor = true;
-            this.btn8.Click += new System.EventHandler(this.btnKeyPressed);
-            // 
-            // btn9
-            // 
-            this.btn9.Location = new System.Drawing.Point(111, 103);
-            this.btn9.Name = "btn9";
-            this.btn9.Size = new System.Drawing.Size(40, 40);
-            this.btn9.TabIndex = 56;
-            this.btn9.Text = "9";
-            this.btn9.UseVisualStyleBackColor = true;
-            this.btn9.Click += new System.EventHandler(this.btnKeyPressed);
-            // 
-            // btn0
-            // 
-            this.btn0.Location = new System.Drawing.Point(65, 149);
-            this.btn0.Name = "btn0";
-            this.btn0.Size = new System.Drawing.Size(40, 40);
-            this.btn0.TabIndex = 57;
-            this.btn0.Text = "0";
-            this.btn0.UseVisualStyleBackColor = true;
-            this.btn0.Click += new System.EventHandler(this.btnKeyPressed);
             // 
             // btnPlusMinus
             // 
@@ -760,17 +734,403 @@
             this.btnPlusMinus.UseVisualStyleBackColor = true;
             this.btnPlusMinus.Click += new System.EventHandler(this.btnKeyPressed);
             // 
-            // btnComma
+            // btn0
             // 
-            this.btnComma.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnComma.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btnComma.Location = new System.Drawing.Point(17, 292);
-            this.btnComma.Name = "btnComma";
-            this.btnComma.Size = new System.Drawing.Size(40, 40);
-            this.btnComma.TabIndex = 59;
-            this.btnComma.Text = ",";
-            this.btnComma.UseVisualStyleBackColor = true;
-            this.btnComma.Click += new System.EventHandler(this.btnKeyPressed);
+            this.btn0.Location = new System.Drawing.Point(65, 149);
+            this.btn0.Name = "btn0";
+            this.btn0.Size = new System.Drawing.Size(40, 40);
+            this.btn0.TabIndex = 57;
+            this.btn0.Text = "0";
+            this.btn0.UseVisualStyleBackColor = true;
+            this.btn0.Click += new System.EventHandler(this.btnKeyPressed);
+            // 
+            // btn9
+            // 
+            this.btn9.Location = new System.Drawing.Point(111, 103);
+            this.btn9.Name = "btn9";
+            this.btn9.Size = new System.Drawing.Size(40, 40);
+            this.btn9.TabIndex = 56;
+            this.btn9.Text = "9";
+            this.btn9.UseVisualStyleBackColor = true;
+            this.btn9.Click += new System.EventHandler(this.btnKeyPressed);
+            // 
+            // btn8
+            // 
+            this.btn8.Location = new System.Drawing.Point(65, 103);
+            this.btn8.Name = "btn8";
+            this.btn8.Size = new System.Drawing.Size(40, 40);
+            this.btn8.TabIndex = 55;
+            this.btn8.Text = "8";
+            this.btn8.UseVisualStyleBackColor = true;
+            this.btn8.Click += new System.EventHandler(this.btnKeyPressed);
+            // 
+            // btn7
+            // 
+            this.btn7.Location = new System.Drawing.Point(19, 103);
+            this.btn7.Name = "btn7";
+            this.btn7.Size = new System.Drawing.Size(40, 40);
+            this.btn7.TabIndex = 54;
+            this.btn7.Text = "7";
+            this.btn7.UseVisualStyleBackColor = true;
+            this.btn7.Click += new System.EventHandler(this.btnKeyPressed);
+            // 
+            // btn5
+            // 
+            this.btn5.Location = new System.Drawing.Point(65, 57);
+            this.btn5.Name = "btn5";
+            this.btn5.Size = new System.Drawing.Size(40, 40);
+            this.btn5.TabIndex = 52;
+            this.btn5.Text = "5";
+            this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btnKeyPressed);
+            // 
+            // btn4
+            // 
+            this.btn4.Location = new System.Drawing.Point(19, 57);
+            this.btn4.Name = "btn4";
+            this.btn4.Size = new System.Drawing.Size(40, 40);
+            this.btn4.TabIndex = 51;
+            this.btn4.Text = "4";
+            this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.btnKeyPressed);
+            // 
+            // btn3
+            // 
+            this.btn3.Location = new System.Drawing.Point(111, 11);
+            this.btn3.Name = "btn3";
+            this.btn3.Size = new System.Drawing.Size(40, 40);
+            this.btn3.TabIndex = 50;
+            this.btn3.Text = "3";
+            this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btnKeyPressed);
+            // 
+            // btn2
+            // 
+            this.btn2.Location = new System.Drawing.Point(65, 11);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(40, 40);
+            this.btn2.TabIndex = 49;
+            this.btn2.Text = "2";
+            this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btnKeyPressed);
+            // 
+            // btn1
+            // 
+            this.btn1.Location = new System.Drawing.Point(19, 11);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(40, 40);
+            this.btn1.TabIndex = 48;
+            this.btn1.Text = "1";
+            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btnKeyPressed);
+            // 
+            // lblL1
+            // 
+            this.lblL1.AutoSize = true;
+            this.lblL1.BackColor = System.Drawing.Color.Transparent;
+            this.lblL1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblL1.ForeColor = System.Drawing.Color.White;
+            this.lblL1.Location = new System.Drawing.Point(0, 33);
+            this.lblL1.Name = "lblL1";
+            this.lblL1.Size = new System.Drawing.Size(89, 15);
+            this.lblL1.TabIndex = 50;
+            this.lblL1.Text = "SAMPLE TEXT";
+            // 
+            // txtL1
+            // 
+            this.txtL1.AutoSize = true;
+            this.txtL1.BackColor = System.Drawing.Color.Transparent;
+            this.txtL1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtL1.ForeColor = System.Drawing.Color.White;
+            this.txtL1.Location = new System.Drawing.Point(-2, 46);
+            this.txtL1.Name = "txtL1";
+            this.txtL1.Size = new System.Drawing.Size(152, 25);
+            this.txtL1.TabIndex = 51;
+            this.txtL1.Text = "SAMPLE TEXT";
+            // 
+            // txtL2
+            // 
+            this.txtL2.AutoSize = true;
+            this.txtL2.BackColor = System.Drawing.Color.Transparent;
+            this.txtL2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtL2.ForeColor = System.Drawing.Color.White;
+            this.txtL2.Location = new System.Drawing.Point(-2, 90);
+            this.txtL2.Name = "txtL2";
+            this.txtL2.Size = new System.Drawing.Size(152, 25);
+            this.txtL2.TabIndex = 52;
+            this.txtL2.Text = "SAMPLE TEXT";
+            // 
+            // lblL2
+            // 
+            this.lblL2.AutoSize = true;
+            this.lblL2.BackColor = System.Drawing.Color.Transparent;
+            this.lblL2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblL2.ForeColor = System.Drawing.Color.White;
+            this.lblL2.Location = new System.Drawing.Point(0, 77);
+            this.lblL2.Name = "lblL2";
+            this.lblL2.Size = new System.Drawing.Size(89, 15);
+            this.lblL2.TabIndex = 53;
+            this.lblL2.Text = "SAMPLE TEXT";
+            // 
+            // lblL3
+            // 
+            this.lblL3.AutoSize = true;
+            this.lblL3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblL3.ForeColor = System.Drawing.Color.White;
+            this.lblL3.Location = new System.Drawing.Point(0, 121);
+            this.lblL3.Name = "lblL3";
+            this.lblL3.Size = new System.Drawing.Size(89, 15);
+            this.lblL3.TabIndex = 54;
+            this.lblL3.Text = "SAMPLE TEXT";
+            // 
+            // lblL4
+            // 
+            this.lblL4.AutoSize = true;
+            this.lblL4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblL4.ForeColor = System.Drawing.Color.White;
+            this.lblL4.Location = new System.Drawing.Point(0, 165);
+            this.lblL4.Name = "lblL4";
+            this.lblL4.Size = new System.Drawing.Size(89, 15);
+            this.lblL4.TabIndex = 55;
+            this.lblL4.Text = "SAMPLE TEXT";
+            // 
+            // lblL5
+            // 
+            this.lblL5.AutoSize = true;
+            this.lblL5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblL5.ForeColor = System.Drawing.Color.White;
+            this.lblL5.Location = new System.Drawing.Point(0, 209);
+            this.lblL5.Name = "lblL5";
+            this.lblL5.Size = new System.Drawing.Size(89, 15);
+            this.lblL5.TabIndex = 56;
+            this.lblL5.Text = "SAMPLE TEXT";
+            // 
+            // lblL6
+            // 
+            this.lblL6.AutoSize = true;
+            this.lblL6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblL6.ForeColor = System.Drawing.Color.White;
+            this.lblL6.Location = new System.Drawing.Point(0, 253);
+            this.lblL6.Name = "lblL6";
+            this.lblL6.Size = new System.Drawing.Size(89, 15);
+            this.lblL6.TabIndex = 57;
+            this.lblL6.Text = "SAMPLE TEXT";
+            // 
+            // txtL3
+            // 
+            this.txtL3.AutoSize = true;
+            this.txtL3.BackColor = System.Drawing.Color.Transparent;
+            this.txtL3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtL3.ForeColor = System.Drawing.Color.White;
+            this.txtL3.Location = new System.Drawing.Point(-2, 134);
+            this.txtL3.Name = "txtL3";
+            this.txtL3.Size = new System.Drawing.Size(152, 25);
+            this.txtL3.TabIndex = 58;
+            this.txtL3.Text = "SAMPLE TEXT";
+            // 
+            // txtL4
+            // 
+            this.txtL4.AutoSize = true;
+            this.txtL4.BackColor = System.Drawing.Color.Transparent;
+            this.txtL4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtL4.ForeColor = System.Drawing.Color.White;
+            this.txtL4.Location = new System.Drawing.Point(-2, 178);
+            this.txtL4.Name = "txtL4";
+            this.txtL4.Size = new System.Drawing.Size(152, 25);
+            this.txtL4.TabIndex = 59;
+            this.txtL4.Text = "SAMPLE TEXT";
+            // 
+            // txtL5
+            // 
+            this.txtL5.AutoSize = true;
+            this.txtL5.BackColor = System.Drawing.Color.Transparent;
+            this.txtL5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtL5.ForeColor = System.Drawing.Color.White;
+            this.txtL5.Location = new System.Drawing.Point(-2, 222);
+            this.txtL5.Name = "txtL5";
+            this.txtL5.Size = new System.Drawing.Size(152, 25);
+            this.txtL5.TabIndex = 60;
+            this.txtL5.Text = "SAMPLE TEXT";
+            // 
+            // txtL6
+            // 
+            this.txtL6.AutoSize = true;
+            this.txtL6.BackColor = System.Drawing.Color.Transparent;
+            this.txtL6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtL6.ForeColor = System.Drawing.Color.White;
+            this.txtL6.Location = new System.Drawing.Point(-2, 266);
+            this.txtL6.Name = "txtL6";
+            this.txtL6.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtL6.Size = new System.Drawing.Size(152, 25);
+            this.txtL6.TabIndex = 61;
+            this.txtL6.Text = "SAMPLE TEXT";
+            // 
+            // txtR6
+            // 
+            this.txtR6.BackColor = System.Drawing.Color.Transparent;
+            this.txtR6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtR6.ForeColor = System.Drawing.Color.White;
+            this.txtR6.Location = new System.Drawing.Point(184, 266);
+            this.txtR6.Name = "txtR6";
+            this.txtR6.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtR6.Size = new System.Drawing.Size(167, 25);
+            this.txtR6.TabIndex = 73;
+            this.txtR6.Text = "SAMPLE TEXT";
+            this.txtR6.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // txtR5
+            // 
+            this.txtR5.BackColor = System.Drawing.Color.Transparent;
+            this.txtR5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtR5.ForeColor = System.Drawing.Color.White;
+            this.txtR5.Location = new System.Drawing.Point(184, 222);
+            this.txtR5.Name = "txtR5";
+            this.txtR5.Size = new System.Drawing.Size(167, 25);
+            this.txtR5.TabIndex = 72;
+            this.txtR5.Text = "SAMPLE TEXT";
+            this.txtR5.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // txtR4
+            // 
+            this.txtR4.BackColor = System.Drawing.Color.Transparent;
+            this.txtR4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtR4.ForeColor = System.Drawing.Color.White;
+            this.txtR4.Location = new System.Drawing.Point(184, 178);
+            this.txtR4.Name = "txtR4";
+            this.txtR4.Size = new System.Drawing.Size(167, 25);
+            this.txtR4.TabIndex = 71;
+            this.txtR4.Text = "SAMPLE TEXT";
+            this.txtR4.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // txtR3
+            // 
+            this.txtR3.BackColor = System.Drawing.Color.Transparent;
+            this.txtR3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtR3.ForeColor = System.Drawing.Color.White;
+            this.txtR3.Location = new System.Drawing.Point(184, 134);
+            this.txtR3.Name = "txtR3";
+            this.txtR3.Size = new System.Drawing.Size(167, 25);
+            this.txtR3.TabIndex = 70;
+            this.txtR3.Text = "SAMPLE TEXT";
+            this.txtR3.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lblR6
+            // 
+            this.lblR6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblR6.ForeColor = System.Drawing.Color.White;
+            this.lblR6.Location = new System.Drawing.Point(262, 253);
+            this.lblR6.Name = "lblR6";
+            this.lblR6.Size = new System.Drawing.Size(89, 15);
+            this.lblR6.TabIndex = 69;
+            this.lblR6.Text = "SAMPLE TEXT";
+            this.lblR6.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lblR5
+            // 
+            this.lblR5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblR5.ForeColor = System.Drawing.Color.White;
+            this.lblR5.Location = new System.Drawing.Point(262, 209);
+            this.lblR5.Name = "lblR5";
+            this.lblR5.Size = new System.Drawing.Size(89, 15);
+            this.lblR5.TabIndex = 68;
+            this.lblR5.Text = "SAMPLE TEXT";
+            this.lblR5.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lblR4
+            // 
+            this.lblR4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblR4.ForeColor = System.Drawing.Color.White;
+            this.lblR4.Location = new System.Drawing.Point(262, 165);
+            this.lblR4.Name = "lblR4";
+            this.lblR4.Size = new System.Drawing.Size(89, 15);
+            this.lblR4.TabIndex = 67;
+            this.lblR4.Text = "SAMPLE TEXT";
+            this.lblR4.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lblR3
+            // 
+            this.lblR3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblR3.ForeColor = System.Drawing.Color.White;
+            this.lblR3.Location = new System.Drawing.Point(262, 121);
+            this.lblR3.Name = "lblR3";
+            this.lblR3.Size = new System.Drawing.Size(89, 15);
+            this.lblR3.TabIndex = 66;
+            this.lblR3.Text = "SAMPLE TEXT";
+            this.lblR3.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lblR2
+            // 
+            this.lblR2.BackColor = System.Drawing.Color.Transparent;
+            this.lblR2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblR2.ForeColor = System.Drawing.Color.White;
+            this.lblR2.Location = new System.Drawing.Point(262, 77);
+            this.lblR2.Name = "lblR2";
+            this.lblR2.Size = new System.Drawing.Size(89, 15);
+            this.lblR2.TabIndex = 65;
+            this.lblR2.Text = "SAMPLE TEXT";
+            this.lblR2.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // txtR2
+            // 
+            this.txtR2.BackColor = System.Drawing.Color.Transparent;
+            this.txtR2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtR2.ForeColor = System.Drawing.Color.White;
+            this.txtR2.Location = new System.Drawing.Point(184, 90);
+            this.txtR2.Name = "txtR2";
+            this.txtR2.Size = new System.Drawing.Size(167, 25);
+            this.txtR2.TabIndex = 64;
+            this.txtR2.Text = "SAMPLE TEXT";
+            this.txtR2.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // txtR1
+            // 
+            this.txtR1.BackColor = System.Drawing.Color.Transparent;
+            this.txtR1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtR1.ForeColor = System.Drawing.Color.White;
+            this.txtR1.Location = new System.Drawing.Point(184, 48);
+            this.txtR1.Name = "txtR1";
+            this.txtR1.Size = new System.Drawing.Size(167, 25);
+            this.txtR1.TabIndex = 63;
+            this.txtR1.Text = "SAMPLE TEXT";
+            this.txtR1.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lblR1
+            // 
+            this.lblR1.BackColor = System.Drawing.Color.Transparent;
+            this.lblR1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblR1.ForeColor = System.Drawing.Color.White;
+            this.lblR1.Location = new System.Drawing.Point(262, 33);
+            this.lblR1.Name = "lblR1";
+            this.lblR1.Size = new System.Drawing.Size(89, 15);
+            this.lblR1.TabIndex = 62;
+            this.lblR1.Text = "SAMPLE TEXT";
+            this.lblR1.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblTitle.ForeColor = System.Drawing.Color.White;
+            this.lblTitle.Location = new System.Drawing.Point(76, 0);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblTitle.Size = new System.Drawing.Size(205, 25);
+            this.lblTitle.TabIndex = 74;
+            this.lblTitle.Text = "TITLE";
+            this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblPage
+            // 
+            this.lblPage.BackColor = System.Drawing.Color.Transparent;
+            this.lblPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblPage.ForeColor = System.Drawing.Color.White;
+            this.lblPage.Location = new System.Drawing.Point(287, 0);
+            this.lblPage.Name = "lblPage";
+            this.lblPage.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblPage.Size = new System.Drawing.Size(67, 25);
+            this.lblPage.TabIndex = 75;
+            this.lblPage.Text = "1/1";
+            this.lblPage.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // CDU
             // 
@@ -870,6 +1230,32 @@
         private System.Windows.Forms.Button btn5;
         private System.Windows.Forms.Button btn4;
         private System.Windows.Forms.Button btnComma;
+        private System.Windows.Forms.Label lblL1;
+        private System.Windows.Forms.Label txtL1;
+        private System.Windows.Forms.Label lblL2;
+        private System.Windows.Forms.Label txtL2;
+        private System.Windows.Forms.Label txtL6;
+        private System.Windows.Forms.Label txtL5;
+        private System.Windows.Forms.Label txtL4;
+        private System.Windows.Forms.Label txtL3;
+        private System.Windows.Forms.Label lblL6;
+        private System.Windows.Forms.Label lblL5;
+        private System.Windows.Forms.Label lblL4;
+        private System.Windows.Forms.Label lblL3;
+        private System.Windows.Forms.Label txtR6;
+        private System.Windows.Forms.Label txtR5;
+        private System.Windows.Forms.Label txtR4;
+        private System.Windows.Forms.Label txtR3;
+        private System.Windows.Forms.Label lblR6;
+        private System.Windows.Forms.Label lblR5;
+        private System.Windows.Forms.Label lblR4;
+        private System.Windows.Forms.Label lblR3;
+        private System.Windows.Forms.Label lblR2;
+        private System.Windows.Forms.Label txtR2;
+        private System.Windows.Forms.Label txtR1;
+        private System.Windows.Forms.Label lblR1;
+        private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Label lblPage;
     }
 }
 

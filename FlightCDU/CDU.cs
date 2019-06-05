@@ -16,12 +16,41 @@ namespace FlightCDU
 
         private delegate void callTextSync(string text);
         Thread t; // text input synchronisation thread
+        Label[] lblLeft = new Label[6];
+        Label[] lblRight = new Label[6];
+        Label[] txtLeft = new Label[6];
+        Label[] txtRight = new Label[6];
 
         public CDU()
         {
             InitializeComponent();
             t = new Thread(new ThreadStart(SyncText));
             t.Start();
+            // put the labels into the label arrays
+            lblLeft[0] = lblL1;
+            lblLeft[1] = lblL2;
+            lblLeft[2] = lblL3;
+            lblLeft[3] = lblL4;
+            lblLeft[4] = lblL5;
+            lblLeft[5] = lblL6;
+            lblRight[0] = lblR1;
+            lblRight[1] = lblR2;
+            lblRight[2] = lblR3;
+            lblRight[3] = lblR4;
+            lblRight[4] = lblR5;
+            lblRight[5] = lblR6;
+            txtLeft[0] = txtL1;
+            txtLeft[1] = txtL2;
+            txtLeft[2] = txtL3;
+            txtLeft[3] = txtL4;
+            txtLeft[4] = txtL5;
+            txtLeft[5] = txtL6;
+            txtRight[0] = txtR1;
+            txtRight[1] = txtR2;
+            txtRight[2] = txtR3;
+            txtRight[3] = txtR4;
+            txtRight[4] = txtR5;
+            txtRight[5] = txtR6;
         }
 
         private void CDU_Load(object sender, EventArgs e)

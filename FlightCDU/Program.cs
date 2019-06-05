@@ -42,5 +42,15 @@ namespace FlightCDU
             inputMode = 1;
             message = txt;
         }
+
+        public static void WriteText(string side, int num, string text)
+        {
+
+        }
+
+        public static void WriteLabel(string side, int num, string text)
+        {
+
+        }
     }
 }
