@@ -29,6 +29,32 @@
         private void InitializeComponent()
         {
             this.pnlScreen = new System.Windows.Forms.Panel();
+            this.lblPage = new System.Windows.Forms.Label();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.txtR6 = new System.Windows.Forms.Label();
+            this.txtR5 = new System.Windows.Forms.Label();
+            this.txtR4 = new System.Windows.Forms.Label();
+            this.txtR3 = new System.Windows.Forms.Label();
+            this.lblR6 = new System.Windows.Forms.Label();
+            this.lblR5 = new System.Windows.Forms.Label();
+            this.lblR4 = new System.Windows.Forms.Label();
+            this.lblR3 = new System.Windows.Forms.Label();
+            this.lblR2 = new System.Windows.Forms.Label();
+            this.txtR2 = new System.Windows.Forms.Label();
+            this.txtR1 = new System.Windows.Forms.Label();
+            this.lblR1 = new System.Windows.Forms.Label();
+            this.txtL6 = new System.Windows.Forms.Label();
+            this.txtL5 = new System.Windows.Forms.Label();
+            this.txtL4 = new System.Windows.Forms.Label();
+            this.txtL3 = new System.Windows.Forms.Label();
+            this.lblL6 = new System.Windows.Forms.Label();
+            this.lblL5 = new System.Windows.Forms.Label();
+            this.lblL4 = new System.Windows.Forms.Label();
+            this.lblL3 = new System.Windows.Forms.Label();
+            this.lblL2 = new System.Windows.Forms.Label();
+            this.txtL2 = new System.Windows.Forms.Label();
+            this.txtL1 = new System.Windows.Forms.Label();
+            this.lblL1 = new System.Windows.Forms.Label();
             this.lblInput = new System.Windows.Forms.Label();
             this.btnL1 = new System.Windows.Forms.Button();
             this.btnL2 = new System.Windows.Forms.Button();
@@ -91,32 +117,6 @@
             this.btn3 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
-            this.lblL1 = new System.Windows.Forms.Label();
-            this.txtL1 = new System.Windows.Forms.Label();
-            this.txtL2 = new System.Windows.Forms.Label();
-            this.lblL2 = new System.Windows.Forms.Label();
-            this.lblL3 = new System.Windows.Forms.Label();
-            this.lblL4 = new System.Windows.Forms.Label();
-            this.lblL5 = new System.Windows.Forms.Label();
-            this.lblL6 = new System.Windows.Forms.Label();
-            this.txtL3 = new System.Windows.Forms.Label();
-            this.txtL4 = new System.Windows.Forms.Label();
-            this.txtL5 = new System.Windows.Forms.Label();
-            this.txtL6 = new System.Windows.Forms.Label();
-            this.txtR6 = new System.Windows.Forms.Label();
-            this.txtR5 = new System.Windows.Forms.Label();
-            this.txtR4 = new System.Windows.Forms.Label();
-            this.txtR3 = new System.Windows.Forms.Label();
-            this.lblR6 = new System.Windows.Forms.Label();
-            this.lblR5 = new System.Windows.Forms.Label();
-            this.lblR4 = new System.Windows.Forms.Label();
-            this.lblR3 = new System.Windows.Forms.Label();
-            this.lblR2 = new System.Windows.Forms.Label();
-            this.txtR2 = new System.Windows.Forms.Label();
-            this.txtR1 = new System.Windows.Forms.Label();
-            this.lblR1 = new System.Windows.Forms.Label();
-            this.lblTitle = new System.Windows.Forms.Label();
-            this.lblPage = new System.Windows.Forms.Label();
             this.pnlScreen.SuspendLayout();
             this.pnlKeyboardLetters.SuspendLayout();
             this.pnlNumPad.SuspendLayout();
@@ -156,6 +156,314 @@
             this.pnlScreen.Name = "pnlScreen";
             this.pnlScreen.Size = new System.Drawing.Size(354, 323);
             this.pnlScreen.TabIndex = 0;
+            // 
+            // lblPage
+            // 
+            this.lblPage.BackColor = System.Drawing.Color.Transparent;
+            this.lblPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblPage.ForeColor = System.Drawing.Color.White;
+            this.lblPage.Location = new System.Drawing.Point(287, 0);
+            this.lblPage.Name = "lblPage";
+            this.lblPage.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblPage.Size = new System.Drawing.Size(67, 25);
+            this.lblPage.TabIndex = 75;
+            this.lblPage.Text = "1/1";
+            this.lblPage.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lblTitle.ForeColor = System.Drawing.Color.White;
+            this.lblTitle.Location = new System.Drawing.Point(76, 0);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblTitle.Size = new System.Drawing.Size(205, 25);
+            this.lblTitle.TabIndex = 74;
+            this.lblTitle.Text = "TITLE";
+            this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtR6
+            // 
+            this.txtR6.BackColor = System.Drawing.Color.Transparent;
+            this.txtR6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtR6.ForeColor = System.Drawing.Color.White;
+            this.txtR6.Location = new System.Drawing.Point(190, 266);
+            this.txtR6.Name = "txtR6";
+            this.txtR6.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtR6.Size = new System.Drawing.Size(167, 25);
+            this.txtR6.TabIndex = 73;
+            this.txtR6.Text = "SAMPLE TEXT";
+            this.txtR6.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // txtR5
+            // 
+            this.txtR5.BackColor = System.Drawing.Color.Transparent;
+            this.txtR5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtR5.ForeColor = System.Drawing.Color.White;
+            this.txtR5.Location = new System.Drawing.Point(190, 222);
+            this.txtR5.Name = "txtR5";
+            this.txtR5.Size = new System.Drawing.Size(167, 25);
+            this.txtR5.TabIndex = 72;
+            this.txtR5.Text = "SAMPLE TEXT";
+            this.txtR5.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // txtR4
+            // 
+            this.txtR4.BackColor = System.Drawing.Color.Transparent;
+            this.txtR4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtR4.ForeColor = System.Drawing.Color.White;
+            this.txtR4.Location = new System.Drawing.Point(190, 178);
+            this.txtR4.Name = "txtR4";
+            this.txtR4.Size = new System.Drawing.Size(167, 25);
+            this.txtR4.TabIndex = 71;
+            this.txtR4.Text = "SAMPLE TEXT";
+            this.txtR4.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // txtR3
+            // 
+            this.txtR3.BackColor = System.Drawing.Color.Transparent;
+            this.txtR3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtR3.ForeColor = System.Drawing.Color.White;
+            this.txtR3.Location = new System.Drawing.Point(190, 134);
+            this.txtR3.Name = "txtR3";
+            this.txtR3.Size = new System.Drawing.Size(167, 25);
+            this.txtR3.TabIndex = 70;
+            this.txtR3.Text = "SAMPLE TEXT";
+            this.txtR3.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lblR6
+            // 
+            this.lblR6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblR6.ForeColor = System.Drawing.Color.White;
+            this.lblR6.Location = new System.Drawing.Point(262, 253);
+            this.lblR6.Name = "lblR6";
+            this.lblR6.Size = new System.Drawing.Size(89, 15);
+            this.lblR6.TabIndex = 69;
+            this.lblR6.Text = "SAMPLE TEXT";
+            this.lblR6.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lblR5
+            // 
+            this.lblR5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblR5.ForeColor = System.Drawing.Color.White;
+            this.lblR5.Location = new System.Drawing.Point(262, 209);
+            this.lblR5.Name = "lblR5";
+            this.lblR5.Size = new System.Drawing.Size(89, 15);
+            this.lblR5.TabIndex = 68;
+            this.lblR5.Text = "SAMPLE TEXT";
+            this.lblR5.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lblR4
+            // 
+            this.lblR4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblR4.ForeColor = System.Drawing.Color.White;
+            this.lblR4.Location = new System.Drawing.Point(262, 165);
+            this.lblR4.Name = "lblR4";
+            this.lblR4.Size = new System.Drawing.Size(89, 15);
+            this.lblR4.TabIndex = 67;
+            this.lblR4.Text = "SAMPLE TEXT";
+            this.lblR4.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lblR3
+            // 
+            this.lblR3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblR3.ForeColor = System.Drawing.Color.White;
+            this.lblR3.Location = new System.Drawing.Point(262, 121);
+            this.lblR3.Name = "lblR3";
+            this.lblR3.Size = new System.Drawing.Size(89, 15);
+            this.lblR3.TabIndex = 66;
+            this.lblR3.Text = "SAMPLE TEXT";
+            this.lblR3.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lblR2
+            // 
+            this.lblR2.BackColor = System.Drawing.Color.Transparent;
+            this.lblR2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblR2.ForeColor = System.Drawing.Color.White;
+            this.lblR2.Location = new System.Drawing.Point(262, 77);
+            this.lblR2.Name = "lblR2";
+            this.lblR2.Size = new System.Drawing.Size(89, 15);
+            this.lblR2.TabIndex = 65;
+            this.lblR2.Text = "SAMPLE TEXT";
+            this.lblR2.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // txtR2
+            // 
+            this.txtR2.BackColor = System.Drawing.Color.Transparent;
+            this.txtR2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtR2.ForeColor = System.Drawing.Color.White;
+            this.txtR2.Location = new System.Drawing.Point(190, 90);
+            this.txtR2.Name = "txtR2";
+            this.txtR2.Size = new System.Drawing.Size(167, 25);
+            this.txtR2.TabIndex = 64;
+            this.txtR2.Text = "SAMPLE TEXT";
+            this.txtR2.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // txtR1
+            // 
+            this.txtR1.BackColor = System.Drawing.Color.Transparent;
+            this.txtR1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtR1.ForeColor = System.Drawing.Color.White;
+            this.txtR1.Location = new System.Drawing.Point(190, 46);
+            this.txtR1.Name = "txtR1";
+            this.txtR1.Size = new System.Drawing.Size(167, 25);
+            this.txtR1.TabIndex = 63;
+            this.txtR1.Text = "SAMPLE TEXT";
+            this.txtR1.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lblR1
+            // 
+            this.lblR1.BackColor = System.Drawing.Color.Transparent;
+            this.lblR1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblR1.ForeColor = System.Drawing.Color.White;
+            this.lblR1.Location = new System.Drawing.Point(262, 33);
+            this.lblR1.Name = "lblR1";
+            this.lblR1.Size = new System.Drawing.Size(89, 15);
+            this.lblR1.TabIndex = 62;
+            this.lblR1.Text = "SAMPLE TEXT";
+            this.lblR1.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // txtL6
+            // 
+            this.txtL6.AutoSize = true;
+            this.txtL6.BackColor = System.Drawing.Color.Transparent;
+            this.txtL6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtL6.ForeColor = System.Drawing.Color.White;
+            this.txtL6.Location = new System.Drawing.Point(-2, 266);
+            this.txtL6.Name = "txtL6";
+            this.txtL6.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtL6.Size = new System.Drawing.Size(152, 25);
+            this.txtL6.TabIndex = 61;
+            this.txtL6.Text = "SAMPLE TEXT";
+            // 
+            // txtL5
+            // 
+            this.txtL5.AutoSize = true;
+            this.txtL5.BackColor = System.Drawing.Color.Transparent;
+            this.txtL5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtL5.ForeColor = System.Drawing.Color.White;
+            this.txtL5.Location = new System.Drawing.Point(-2, 222);
+            this.txtL5.Name = "txtL5";
+            this.txtL5.Size = new System.Drawing.Size(152, 25);
+            this.txtL5.TabIndex = 60;
+            this.txtL5.Text = "SAMPLE TEXT";
+            // 
+            // txtL4
+            // 
+            this.txtL4.AutoSize = true;
+            this.txtL4.BackColor = System.Drawing.Color.Transparent;
+            this.txtL4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtL4.ForeColor = System.Drawing.Color.White;
+            this.txtL4.Location = new System.Drawing.Point(-2, 178);
+            this.txtL4.Name = "txtL4";
+            this.txtL4.Size = new System.Drawing.Size(152, 25);
+            this.txtL4.TabIndex = 59;
+            this.txtL4.Text = "SAMPLE TEXT";
+            // 
+            // txtL3
+            // 
+            this.txtL3.AutoSize = true;
+            this.txtL3.BackColor = System.Drawing.Color.Transparent;
+            this.txtL3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtL3.ForeColor = System.Drawing.Color.White;
+            this.txtL3.Location = new System.Drawing.Point(-2, 134);
+            this.txtL3.Name = "txtL3";
+            this.txtL3.Size = new System.Drawing.Size(152, 25);
+            this.txtL3.TabIndex = 58;
+            this.txtL3.Text = "SAMPLE TEXT";
+            // 
+            // lblL6
+            // 
+            this.lblL6.AutoSize = true;
+            this.lblL6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblL6.ForeColor = System.Drawing.Color.White;
+            this.lblL6.Location = new System.Drawing.Point(0, 253);
+            this.lblL6.Name = "lblL6";
+            this.lblL6.Size = new System.Drawing.Size(89, 15);
+            this.lblL6.TabIndex = 57;
+            this.lblL6.Text = "SAMPLE TEXT";
+            // 
+            // lblL5
+            // 
+            this.lblL5.AutoSize = true;
+            this.lblL5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblL5.ForeColor = System.Drawing.Color.White;
+            this.lblL5.Location = new System.Drawing.Point(0, 209);
+            this.lblL5.Name = "lblL5";
+            this.lblL5.Size = new System.Drawing.Size(89, 15);
+            this.lblL5.TabIndex = 56;
+            this.lblL5.Text = "SAMPLE TEXT";
+            // 
+            // lblL4
+            // 
+            this.lblL4.AutoSize = true;
+            this.lblL4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblL4.ForeColor = System.Drawing.Color.White;
+            this.lblL4.Location = new System.Drawing.Point(0, 165);
+            this.lblL4.Name = "lblL4";
+            this.lblL4.Size = new System.Drawing.Size(89, 15);
+            this.lblL4.TabIndex = 55;
+            this.lblL4.Text = "SAMPLE TEXT";
+            // 
+            // lblL3
+            // 
+            this.lblL3.AutoSize = true;
+            this.lblL3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblL3.ForeColor = System.Drawing.Color.White;
+            this.lblL3.Location = new System.Drawing.Point(0, 121);
+            this.lblL3.Name = "lblL3";
+            this.lblL3.Size = new System.Drawing.Size(89, 15);
+            this.lblL3.TabIndex = 54;
+            this.lblL3.Text = "SAMPLE TEXT";
+            // 
+            // lblL2
+            // 
+            this.lblL2.AutoSize = true;
+            this.lblL2.BackColor = System.Drawing.Color.Transparent;
+            this.lblL2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblL2.ForeColor = System.Drawing.Color.White;
+            this.lblL2.Location = new System.Drawing.Point(0, 77);
+            this.lblL2.Name = "lblL2";
+            this.lblL2.Size = new System.Drawing.Size(89, 15);
+            this.lblL2.TabIndex = 53;
+            this.lblL2.Text = "SAMPLE TEXT";
+            // 
+            // txtL2
+            // 
+            this.txtL2.AutoSize = true;
+            this.txtL2.BackColor = System.Drawing.Color.Transparent;
+            this.txtL2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtL2.ForeColor = System.Drawing.Color.White;
+            this.txtL2.Location = new System.Drawing.Point(-2, 90);
+            this.txtL2.Name = "txtL2";
+            this.txtL2.Size = new System.Drawing.Size(152, 25);
+            this.txtL2.TabIndex = 52;
+            this.txtL2.Text = "SAMPLE TEXT";
+            // 
+            // txtL1
+            // 
+            this.txtL1.AutoSize = true;
+            this.txtL1.BackColor = System.Drawing.Color.Transparent;
+            this.txtL1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtL1.ForeColor = System.Drawing.Color.White;
+            this.txtL1.Location = new System.Drawing.Point(-2, 46);
+            this.txtL1.Name = "txtL1";
+            this.txtL1.Size = new System.Drawing.Size(152, 25);
+            this.txtL1.TabIndex = 51;
+            this.txtL1.Text = "SAMPLE TEXT";
+            // 
+            // lblL1
+            // 
+            this.lblL1.AutoSize = true;
+            this.lblL1.BackColor = System.Drawing.Color.Transparent;
+            this.lblL1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
+            this.lblL1.ForeColor = System.Drawing.Color.White;
+            this.lblL1.Location = new System.Drawing.Point(0, 33);
+            this.lblL1.Name = "lblL1";
+            this.lblL1.Size = new System.Drawing.Size(89, 15);
+            this.lblL1.TabIndex = 50;
+            this.lblL1.Text = "SAMPLE TEXT";
             // 
             // lblInput
             // 
@@ -823,314 +1131,6 @@
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = true;
             this.btn1.Click += new System.EventHandler(this.btnKeyPressed);
-            // 
-            // lblL1
-            // 
-            this.lblL1.AutoSize = true;
-            this.lblL1.BackColor = System.Drawing.Color.Transparent;
-            this.lblL1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.lblL1.ForeColor = System.Drawing.Color.White;
-            this.lblL1.Location = new System.Drawing.Point(0, 33);
-            this.lblL1.Name = "lblL1";
-            this.lblL1.Size = new System.Drawing.Size(89, 15);
-            this.lblL1.TabIndex = 50;
-            this.lblL1.Text = "SAMPLE TEXT";
-            // 
-            // txtL1
-            // 
-            this.txtL1.AutoSize = true;
-            this.txtL1.BackColor = System.Drawing.Color.Transparent;
-            this.txtL1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtL1.ForeColor = System.Drawing.Color.White;
-            this.txtL1.Location = new System.Drawing.Point(-2, 46);
-            this.txtL1.Name = "txtL1";
-            this.txtL1.Size = new System.Drawing.Size(152, 25);
-            this.txtL1.TabIndex = 51;
-            this.txtL1.Text = "SAMPLE TEXT";
-            // 
-            // txtL2
-            // 
-            this.txtL2.AutoSize = true;
-            this.txtL2.BackColor = System.Drawing.Color.Transparent;
-            this.txtL2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtL2.ForeColor = System.Drawing.Color.White;
-            this.txtL2.Location = new System.Drawing.Point(-2, 90);
-            this.txtL2.Name = "txtL2";
-            this.txtL2.Size = new System.Drawing.Size(152, 25);
-            this.txtL2.TabIndex = 52;
-            this.txtL2.Text = "SAMPLE TEXT";
-            // 
-            // lblL2
-            // 
-            this.lblL2.AutoSize = true;
-            this.lblL2.BackColor = System.Drawing.Color.Transparent;
-            this.lblL2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.lblL2.ForeColor = System.Drawing.Color.White;
-            this.lblL2.Location = new System.Drawing.Point(0, 77);
-            this.lblL2.Name = "lblL2";
-            this.lblL2.Size = new System.Drawing.Size(89, 15);
-            this.lblL2.TabIndex = 53;
-            this.lblL2.Text = "SAMPLE TEXT";
-            // 
-            // lblL3
-            // 
-            this.lblL3.AutoSize = true;
-            this.lblL3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.lblL3.ForeColor = System.Drawing.Color.White;
-            this.lblL3.Location = new System.Drawing.Point(0, 121);
-            this.lblL3.Name = "lblL3";
-            this.lblL3.Size = new System.Drawing.Size(89, 15);
-            this.lblL3.TabIndex = 54;
-            this.lblL3.Text = "SAMPLE TEXT";
-            // 
-            // lblL4
-            // 
-            this.lblL4.AutoSize = true;
-            this.lblL4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.lblL4.ForeColor = System.Drawing.Color.White;
-            this.lblL4.Location = new System.Drawing.Point(0, 165);
-            this.lblL4.Name = "lblL4";
-            this.lblL4.Size = new System.Drawing.Size(89, 15);
-            this.lblL4.TabIndex = 55;
-            this.lblL4.Text = "SAMPLE TEXT";
-            // 
-            // lblL5
-            // 
-            this.lblL5.AutoSize = true;
-            this.lblL5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.lblL5.ForeColor = System.Drawing.Color.White;
-            this.lblL5.Location = new System.Drawing.Point(0, 209);
-            this.lblL5.Name = "lblL5";
-            this.lblL5.Size = new System.Drawing.Size(89, 15);
-            this.lblL5.TabIndex = 56;
-            this.lblL5.Text = "SAMPLE TEXT";
-            // 
-            // lblL6
-            // 
-            this.lblL6.AutoSize = true;
-            this.lblL6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.lblL6.ForeColor = System.Drawing.Color.White;
-            this.lblL6.Location = new System.Drawing.Point(0, 253);
-            this.lblL6.Name = "lblL6";
-            this.lblL6.Size = new System.Drawing.Size(89, 15);
-            this.lblL6.TabIndex = 57;
-            this.lblL6.Text = "SAMPLE TEXT";
-            // 
-            // txtL3
-            // 
-            this.txtL3.AutoSize = true;
-            this.txtL3.BackColor = System.Drawing.Color.Transparent;
-            this.txtL3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtL3.ForeColor = System.Drawing.Color.White;
-            this.txtL3.Location = new System.Drawing.Point(-2, 134);
-            this.txtL3.Name = "txtL3";
-            this.txtL3.Size = new System.Drawing.Size(152, 25);
-            this.txtL3.TabIndex = 58;
-            this.txtL3.Text = "SAMPLE TEXT";
-            // 
-            // txtL4
-            // 
-            this.txtL4.AutoSize = true;
-            this.txtL4.BackColor = System.Drawing.Color.Transparent;
-            this.txtL4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtL4.ForeColor = System.Drawing.Color.White;
-            this.txtL4.Location = new System.Drawing.Point(-2, 178);
-            this.txtL4.Name = "txtL4";
-            this.txtL4.Size = new System.Drawing.Size(152, 25);
-            this.txtL4.TabIndex = 59;
-            this.txtL4.Text = "SAMPLE TEXT";
-            // 
-            // txtL5
-            // 
-            this.txtL5.AutoSize = true;
-            this.txtL5.BackColor = System.Drawing.Color.Transparent;
-            this.txtL5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtL5.ForeColor = System.Drawing.Color.White;
-            this.txtL5.Location = new System.Drawing.Point(-2, 222);
-            this.txtL5.Name = "txtL5";
-            this.txtL5.Size = new System.Drawing.Size(152, 25);
-            this.txtL5.TabIndex = 60;
-            this.txtL5.Text = "SAMPLE TEXT";
-            // 
-            // txtL6
-            // 
-            this.txtL6.AutoSize = true;
-            this.txtL6.BackColor = System.Drawing.Color.Transparent;
-            this.txtL6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtL6.ForeColor = System.Drawing.Color.White;
-            this.txtL6.Location = new System.Drawing.Point(-2, 266);
-            this.txtL6.Name = "txtL6";
-            this.txtL6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtL6.Size = new System.Drawing.Size(152, 25);
-            this.txtL6.TabIndex = 61;
-            this.txtL6.Text = "SAMPLE TEXT";
-            // 
-            // txtR6
-            // 
-            this.txtR6.BackColor = System.Drawing.Color.Transparent;
-            this.txtR6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtR6.ForeColor = System.Drawing.Color.White;
-            this.txtR6.Location = new System.Drawing.Point(184, 266);
-            this.txtR6.Name = "txtR6";
-            this.txtR6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtR6.Size = new System.Drawing.Size(167, 25);
-            this.txtR6.TabIndex = 73;
-            this.txtR6.Text = "SAMPLE TEXT";
-            this.txtR6.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // txtR5
-            // 
-            this.txtR5.BackColor = System.Drawing.Color.Transparent;
-            this.txtR5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtR5.ForeColor = System.Drawing.Color.White;
-            this.txtR5.Location = new System.Drawing.Point(184, 222);
-            this.txtR5.Name = "txtR5";
-            this.txtR5.Size = new System.Drawing.Size(167, 25);
-            this.txtR5.TabIndex = 72;
-            this.txtR5.Text = "SAMPLE TEXT";
-            this.txtR5.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // txtR4
-            // 
-            this.txtR4.BackColor = System.Drawing.Color.Transparent;
-            this.txtR4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtR4.ForeColor = System.Drawing.Color.White;
-            this.txtR4.Location = new System.Drawing.Point(184, 178);
-            this.txtR4.Name = "txtR4";
-            this.txtR4.Size = new System.Drawing.Size(167, 25);
-            this.txtR4.TabIndex = 71;
-            this.txtR4.Text = "SAMPLE TEXT";
-            this.txtR4.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // txtR3
-            // 
-            this.txtR3.BackColor = System.Drawing.Color.Transparent;
-            this.txtR3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtR3.ForeColor = System.Drawing.Color.White;
-            this.txtR3.Location = new System.Drawing.Point(184, 134);
-            this.txtR3.Name = "txtR3";
-            this.txtR3.Size = new System.Drawing.Size(167, 25);
-            this.txtR3.TabIndex = 70;
-            this.txtR3.Text = "SAMPLE TEXT";
-            this.txtR3.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // lblR6
-            // 
-            this.lblR6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.lblR6.ForeColor = System.Drawing.Color.White;
-            this.lblR6.Location = new System.Drawing.Point(262, 253);
-            this.lblR6.Name = "lblR6";
-            this.lblR6.Size = new System.Drawing.Size(89, 15);
-            this.lblR6.TabIndex = 69;
-            this.lblR6.Text = "SAMPLE TEXT";
-            this.lblR6.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // lblR5
-            // 
-            this.lblR5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.lblR5.ForeColor = System.Drawing.Color.White;
-            this.lblR5.Location = new System.Drawing.Point(262, 209);
-            this.lblR5.Name = "lblR5";
-            this.lblR5.Size = new System.Drawing.Size(89, 15);
-            this.lblR5.TabIndex = 68;
-            this.lblR5.Text = "SAMPLE TEXT";
-            this.lblR5.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // lblR4
-            // 
-            this.lblR4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.lblR4.ForeColor = System.Drawing.Color.White;
-            this.lblR4.Location = new System.Drawing.Point(262, 165);
-            this.lblR4.Name = "lblR4";
-            this.lblR4.Size = new System.Drawing.Size(89, 15);
-            this.lblR4.TabIndex = 67;
-            this.lblR4.Text = "SAMPLE TEXT";
-            this.lblR4.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // lblR3
-            // 
-            this.lblR3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.lblR3.ForeColor = System.Drawing.Color.White;
-            this.lblR3.Location = new System.Drawing.Point(262, 121);
-            this.lblR3.Name = "lblR3";
-            this.lblR3.Size = new System.Drawing.Size(89, 15);
-            this.lblR3.TabIndex = 66;
-            this.lblR3.Text = "SAMPLE TEXT";
-            this.lblR3.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // lblR2
-            // 
-            this.lblR2.BackColor = System.Drawing.Color.Transparent;
-            this.lblR2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.lblR2.ForeColor = System.Drawing.Color.White;
-            this.lblR2.Location = new System.Drawing.Point(262, 77);
-            this.lblR2.Name = "lblR2";
-            this.lblR2.Size = new System.Drawing.Size(89, 15);
-            this.lblR2.TabIndex = 65;
-            this.lblR2.Text = "SAMPLE TEXT";
-            this.lblR2.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // txtR2
-            // 
-            this.txtR2.BackColor = System.Drawing.Color.Transparent;
-            this.txtR2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtR2.ForeColor = System.Drawing.Color.White;
-            this.txtR2.Location = new System.Drawing.Point(184, 90);
-            this.txtR2.Name = "txtR2";
-            this.txtR2.Size = new System.Drawing.Size(167, 25);
-            this.txtR2.TabIndex = 64;
-            this.txtR2.Text = "SAMPLE TEXT";
-            this.txtR2.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // txtR1
-            // 
-            this.txtR1.BackColor = System.Drawing.Color.Transparent;
-            this.txtR1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtR1.ForeColor = System.Drawing.Color.White;
-            this.txtR1.Location = new System.Drawing.Point(184, 48);
-            this.txtR1.Name = "txtR1";
-            this.txtR1.Size = new System.Drawing.Size(167, 25);
-            this.txtR1.TabIndex = 63;
-            this.txtR1.Text = "SAMPLE TEXT";
-            this.txtR1.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // lblR1
-            // 
-            this.lblR1.BackColor = System.Drawing.Color.Transparent;
-            this.lblR1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F);
-            this.lblR1.ForeColor = System.Drawing.Color.White;
-            this.lblR1.Location = new System.Drawing.Point(262, 33);
-            this.lblR1.Name = "lblR1";
-            this.lblR1.Size = new System.Drawing.Size(89, 15);
-            this.lblR1.TabIndex = 62;
-            this.lblR1.Text = "SAMPLE TEXT";
-            this.lblR1.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // lblTitle
-            // 
-            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblTitle.ForeColor = System.Drawing.Color.White;
-            this.lblTitle.Location = new System.Drawing.Point(76, 0);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblTitle.Size = new System.Drawing.Size(205, 25);
-            this.lblTitle.TabIndex = 74;
-            this.lblTitle.Text = "TITLE";
-            this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblPage
-            // 
-            this.lblPage.BackColor = System.Drawing.Color.Transparent;
-            this.lblPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblPage.ForeColor = System.Drawing.Color.White;
-            this.lblPage.Location = new System.Drawing.Point(287, 0);
-            this.lblPage.Name = "lblPage";
-            this.lblPage.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblPage.Size = new System.Drawing.Size(67, 25);
-            this.lblPage.TabIndex = 75;
-            this.lblPage.Text = "1/1";
-            this.lblPage.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // CDU
             // 

@@ -47,6 +47,8 @@ namespace FlightCDU
             Program.txtRight[3] = txtR4;
             Program.txtRight[4] = txtR5;
             Program.txtRight[5] = txtR6;
+            Program.title = lblTitle;
+            Program.page = lblPage;
         }
 
         private void CDU_Load(object sender, EventArgs e)

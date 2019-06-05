@@ -22,6 +22,9 @@ namespace FlightCDU
         public static Label[] lblRight = new Label[6];
         public static Label[] txtLeft = new Label[6];
         public static Label[] txtRight = new Label[6];
+        public static Label title;
+        public static Label page;
+
 
 
         /*
@@ -85,6 +88,41 @@ namespace FlightCDU
                     lblRight[num - 1].Text = text;
                     break;
             }
+        }
+
+        /// <summary>
+        /// Get the label text specified by the user
+        /// </summary>
+        /// <param name="side">the side, "L" or "R"</param>
+        /// <param name="num">the key number, from 1 to 6</param>
+        /// <returns>the text the user wants</returns>
+        public static string GetLabelText(string side, int num) {
+            switch (side)
+            {
+                case "L":
+                    return lblLeft[num - 1].Text;
+                case "R":
+                    return lblRight[num - 1].Text;
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// Write the title of the CDU
+        /// </summary>
+        /// <param name="text">the title text</param>
+        public static void WriteTitle(string text)
+        {
+            title.Text = text;
+        }
+
+        /// <summary>
+        /// Write the page number of the CDU page
+        /// </summary>
+        /// <param name="text">the page number indication text</param>
+        public static void WritePage(string text)
+        {
+            page.Text = text;
         }
     }
 }
