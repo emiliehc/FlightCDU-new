@@ -18,6 +18,12 @@ namespace FlightCDU
         public static string input = "";
         public static string message = "";
         public static int inputMode = 0;
+        public static Label[] lblLeft = new Label[6];
+        public static Label[] lblRight = new Label[6];
+        public static Label[] txtLeft = new Label[6];
+        public static Label[] txtRight = new Label[6];
+
+
         /*
          * input mode:
          * 0: available
@@ -43,14 +49,42 @@ namespace FlightCDU
             message = txt;
         }
 
+        /// <summary>
+        /// write text to the texts
+        /// </summary>
+        /// <param name="side">the side, "L" or "R"</param>
+        /// <param name="num">the key number, from 1 to 6</param>
+        /// <param name="text">the actual text</param>
         public static void WriteText(string side, int num, string text)
         {
-
+            switch(side)
+            {
+                case "L":
+                    txtLeft[num - 1].Text = text;
+                    break;
+                case "R":
+                    txtRight[num - 1].Text = text;
+                    break;
+            }
         }
 
+        /// <summary>
+        /// write text to the labels
+        /// </summary>
+        /// <param name="side">the side, "L" or "R"</param>
+        /// <param name="num">the key number, from 1 to 6</param>
+        /// <param name="text">the actual text</param>
         public static void WriteLabel(string side, int num, string text)
         {
-
+            switch (side)
+            {
+                case "L":
+                    lblLeft[num - 1].Text = text;
+                    break;
+                case "R":
+                    lblRight[num - 1].Text = text;
+                    break;
+            }
         }
     }
 }

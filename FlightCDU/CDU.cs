@@ -15,11 +15,7 @@ namespace FlightCDU
     {
 
         private delegate void callTextSync(string text);
-        Thread t; // text input synchronisation thread
-        Label[] lblLeft = new Label[6];
-        Label[] lblRight = new Label[6];
-        Label[] txtLeft = new Label[6];
-        Label[] txtRight = new Label[6];
+        private Thread t; // text input synchronisation thread
 
         public CDU()
         {
@@ -27,30 +23,30 @@ namespace FlightCDU
             t = new Thread(new ThreadStart(SyncText));
             t.Start();
             // put the labels into the label arrays
-            lblLeft[0] = lblL1;
-            lblLeft[1] = lblL2;
-            lblLeft[2] = lblL3;
-            lblLeft[3] = lblL4;
-            lblLeft[4] = lblL5;
-            lblLeft[5] = lblL6;
-            lblRight[0] = lblR1;
-            lblRight[1] = lblR2;
-            lblRight[2] = lblR3;
-            lblRight[3] = lblR4;
-            lblRight[4] = lblR5;
-            lblRight[5] = lblR6;
-            txtLeft[0] = txtL1;
-            txtLeft[1] = txtL2;
-            txtLeft[2] = txtL3;
-            txtLeft[3] = txtL4;
-            txtLeft[4] = txtL5;
-            txtLeft[5] = txtL6;
-            txtRight[0] = txtR1;
-            txtRight[1] = txtR2;
-            txtRight[2] = txtR3;
-            txtRight[3] = txtR4;
-            txtRight[4] = txtR5;
-            txtRight[5] = txtR6;
+            Program.lblLeft[0] = lblL1;
+            Program.lblLeft[1] = lblL2;
+            Program.lblLeft[2] = lblL3;
+            Program.lblLeft[3] = lblL4;
+            Program.lblLeft[4] = lblL5;
+            Program.lblLeft[5] = lblL6;
+            Program.lblRight[0] = lblR1;
+            Program.lblRight[1] = lblR2;
+            Program.lblRight[2] = lblR3;
+            Program.lblRight[3] = lblR4;
+            Program.lblRight[4] = lblR5;
+            Program.lblRight[5] = lblR6;
+            Program.txtLeft[0] = txtL1;
+            Program.txtLeft[1] = txtL2;
+            Program.txtLeft[2] = txtL3;
+            Program.txtLeft[3] = txtL4;
+            Program.txtLeft[4] = txtL5;
+            Program.txtLeft[5] = txtL6;
+            Program.txtRight[0] = txtR1;
+            Program.txtRight[1] = txtR2;
+            Program.txtRight[2] = txtR3;
+            Program.txtRight[3] = txtR4;
+            Program.txtRight[4] = txtR5;
+            Program.txtRight[5] = txtR6;
         }
 
         private void CDU_Load(object sender, EventArgs e)
