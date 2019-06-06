@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Applications\CDUTest.cs" />
+    <Compile Include="Applications\CDUTest\CDUTest.cs" />
     <Compile Include="CDU.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -10,8 +10,10 @@ namespace FlightCDU
     {
         public static void Start()
         {
+            Program.CDUClear();
             Program.activeProgram = 0;
             // init the text
+            Program.WriteTitle("MENU");
             Program.WriteText("R", 6, "CDU TEST>");
         }
 
@@ -34,7 +36,7 @@ namespace FlightCDU
 
         private static void R6Clicked()
         {
-
+            Applications.CDUTest.CDUTest.Start();
         }
     }
 }

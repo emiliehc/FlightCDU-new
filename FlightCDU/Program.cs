@@ -134,7 +134,16 @@ namespace FlightCDU
 
         public static void CDUStartup()
         {
-            // clear all labels
+            CDUClear();
+            // start the mcdu menu
+            CDUMenu.Start();
+        }
+
+        /// <summary>
+        /// clear all cdu texts
+        /// </summary>
+        public static void CDUClear()
+        {
             for (int i = 1; i <= 6; i++)
             {
                 WriteLabel("L", i, "");
@@ -144,8 +153,6 @@ namespace FlightCDU
             }
             WriteTitle("");
             WritePage("");
-            // start the mcdu menu
-            CDUMenu.Start();
         }
     }
 }
