@@ -75,6 +75,15 @@ namespace FlightCDU
         private void SideKeyPressed(object sender, EventArgs e)
         {
             string btnName = ((Button)sender).Name;
+            string side = btnName.Substring(3, 1);
+            int num = int.Parse(btnName.Substring(4, 1));
+            switch (Program.activeProgram)
+            {
+                // menu
+                case 0:
+                    CDUMenu.BtnClicked(side, num);
+                    break;
+            }
         }
 
         private void SyncText()

@@ -145,7 +145,7 @@ namespace FlightCDU
             WriteTitle("");
             WritePage("");
             // start the mcdu menu
-            Menu.Start();
+            CDUMenu.Start();
         }
     }
 }
