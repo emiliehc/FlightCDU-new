@@ -53,7 +53,7 @@ namespace FlightCDU
 
         private void CDU_Load(object sender, EventArgs e)
         {
-            lblInput.Text = "";
+            Program.CDUStartup();
         }
 
         private void btnKeyPressed(object sender, EventArgs e)

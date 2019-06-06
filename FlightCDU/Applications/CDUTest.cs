@@ -4,15 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FlightCDU
+namespace FlightCDU.Applications
 {
-    class Menu
+    class CDUTest
     {
         public static void Start()
         {
-            Program.activeProgram = 0;
-            // init the text
-            Program.WriteText("R", 6, "CDU TEST>");
+
         }
     }
 }

@@ -18,6 +18,12 @@ namespace FlightCDU
         public static string input = "";
         public static string message = "";
         public static int inputMode = 0;
+        /*
+         * Active program:
+         * 0: Menu
+         * 1: CDU Test
+         */
+        public static int activeProgram;
         public static Label[] lblLeft = new Label[6];
         public static Label[] lblRight = new Label[6];
         public static Label[] txtLeft = new Label[6];
@@ -123,6 +129,23 @@ namespace FlightCDU
         public static void WritePage(string text)
         {
             page.Text = text;
+        }
+
+
+        public static void CDUStartup()
+        {
+            // clear all labels
+            for (int i = 1; i <= 6; i++)
+            {
+                WriteLabel("L", i, "");
+                WriteLabel("R", i, "");
+                WriteText("L", i, "");
+                WriteText("R", i, "");
+            }
+            WriteTitle("");
+            WritePage("");
+            // start the mcdu menu
+            Menu.Start();
         }
     }
 }
