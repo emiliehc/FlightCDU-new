@@ -74,7 +74,7 @@ namespace FlightCDU
 
         private void SideKeyPressed(object sender, EventArgs e)
         {
-
+            string btnName = ((Button)sender).Name;
         }
 
         private void SyncText()

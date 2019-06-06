@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActionInterpreter.cs" />
     <Compile Include="Applications\CDUTest.cs" />
     <Compile Include="CDU.cs">
       <SubType>Form</SubType>
