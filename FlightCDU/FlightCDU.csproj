@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Applications\CDUTest\CDUTest.cs" />
+    <Compile Include="Applications\PressAlt\PressAlt.cs" />
     <Compile Include="CDU.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -22,6 +22,7 @@ namespace FlightCDU
          * Active program:
          * 0: Menu
          * 1: CDU Test
+         * 2: Pressure Altitude Calculator
          */
         public static int activeProgram;
         public static Label[] lblLeft = new Label[6];
@@ -106,9 +107,9 @@ namespace FlightCDU
             switch (side)
             {
                 case "L":
-                    return lblLeft[num - 1].Text;
+                    return txtLeft[num - 1].Text;
                 case "R":
-                    return lblRight[num - 1].Text;
+                    return txtRight[num - 1].Text;
             }
             return null;
         }

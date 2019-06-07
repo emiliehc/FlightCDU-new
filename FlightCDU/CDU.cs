@@ -86,6 +86,9 @@ namespace FlightCDU
                 case 1:
                     Applications.CDUTest.CDUTest.BtnClicked(side, num);
                     break;
+                case 2:
+                    Applications.PressAlt.PressAlt.BtnClicked(side, num);
+                    break;
             }
         }
 

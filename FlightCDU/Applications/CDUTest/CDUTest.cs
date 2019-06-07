@@ -20,6 +20,9 @@ namespace FlightCDU.Applications.CDUTest
             // text input test
             Program.WriteLabel("L", 2, "TEXT INPUT TEST");
             Program.WriteText("L", 2, "- - - - -");
+            // text grabbing test
+            Program.WriteLabel("L", 3, "TEXT GRABBING TEST");
+            Program.WriteText("L", 3, "GRAB ME");
 
             // back to the menu
             Program.WriteText("L", 6, "<MENU");
@@ -37,6 +40,9 @@ namespace FlightCDU.Applications.CDUTest
                             break;
                         case 2:
                             L2Clicked();
+                            break;
+                        case 3:
+                            L3Clicked();
                             break;
                         case 6:
                             L6Clicked();
@@ -66,10 +72,22 @@ namespace FlightCDU.Applications.CDUTest
                 {
                     Program.ShowMessage("INVALID ENTRY");
                 }
-            } else if (Program.inputMode == 2)
+            }
+            else if (Program.inputMode == 2)
             {
                 Program.WriteText("L", 2, "- - - - -");
                 Program.inputMode = 0;
+            }
+        }
+
+        private static void L3Clicked()
+        {
+            if (Program.inputMode == 0)
+            {
+                if (Program.input.Equals(""))
+                {
+                    Program.input = Program.GetLabelText("L", 3);
+                }
             }
         }
 

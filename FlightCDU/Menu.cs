@@ -14,7 +14,10 @@ namespace FlightCDU
             Program.activeProgram = 0;
             // init the text
             Program.WriteTitle("MENU");
+            // cdu test
             Program.WriteText("R", 6, "CDU TEST>");
+            // pressAlt
+            Program.WriteText("L", 1, "<PRESS ALT");
         }
 
         public static void BtnClicked(string side, int num)
@@ -22,6 +25,12 @@ namespace FlightCDU
             switch (side)
             {
                 case "L":
+                    switch (num)
+                    {
+                        case 1:
+                            L1Clicked();
+                            break;
+                    }
                     break;
                 case "R":
                     switch (num)
@@ -37,6 +46,11 @@ namespace FlightCDU
         private static void R6Clicked()
         {
             Applications.CDUTest.CDUTest.Start();
+        }
+
+        private static void L1Clicked()
+        {
+            Applications.PressAlt.PressAlt.Start();
         }
     }
 }
