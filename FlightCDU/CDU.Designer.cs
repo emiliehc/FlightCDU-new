@@ -945,7 +945,7 @@
             this.btnPeriod.Name = "btnPeriod";
             this.btnPeriod.Size = new System.Drawing.Size(40, 40);
             this.btnPeriod.TabIndex = 47;
-            this.btnPeriod.Text = ".";
+            this.btnPeriod.Text = ",";
             this.btnPeriod.UseVisualStyleBackColor = true;
             this.btnPeriod.Click += new System.EventHandler(this.btnKeyPressed);
             // 
@@ -999,7 +999,7 @@
             this.btnComma.Name = "btnComma";
             this.btnComma.Size = new System.Drawing.Size(40, 40);
             this.btnComma.TabIndex = 59;
-            this.btnComma.Text = ",";
+            this.btnComma.Text = ".";
             this.btnComma.UseVisualStyleBackColor = true;
             this.btnComma.Click += new System.EventHandler(this.btnKeyPressed);
             // 

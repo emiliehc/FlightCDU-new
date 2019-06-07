@@ -74,21 +74,28 @@ namespace FlightCDU
 
         private void SideKeyPressed(object sender, EventArgs e)
         {
-            string btnName = ((Button)sender).Name;
-            string side = btnName.Substring(3, 1);
-            int num = int.Parse(btnName.Substring(4, 1));
-            switch (Program.activeProgram)
+            try
             {
-                // menu
-                case 0:
-                    CDUMenu.BtnClicked(side, num);
-                    break;
-                case 1:
-                    Applications.CDUTest.CDUTest.BtnClicked(side, num);
-                    break;
-                case 2:
-                    Applications.PressAlt.PressAlt.BtnClicked(side, num);
-                    break;
+                string btnName = ((Button)sender).Name;
+                string side = btnName.Substring(3, 1);
+                int num = int.Parse(btnName.Substring(4, 1));
+                switch (Program.activeProgram)
+                {
+                    // menu
+                    case 0:
+                        CDUMenu.BtnClicked(side, num);
+                        break;
+                    case 1:
+                        Applications.CDUTest.CDUTest.BtnClicked(side, num);
+                        break;
+                    case 2:
+                        Applications.PressAlt.PressAlt.BtnClicked(side, num);
+                        break;
+                }
+            }
+            catch (NotImplementedException ex)
+            {
+                Program.ShowMessage("NOT IMPLEMENTED");
             }
         }
 
