@@ -33,6 +33,10 @@ namespace FlightCDU.Applications.PressAlt
             Program.WriteText("L", 4, "- - - - -");
             // run label
             Program.WriteText("R", 4, "CALC>");
+
+            // init the variables
+            altSetting = -123456;
+            fieldElvation = -123456;
         }
 
         public static void BtnClicked(string side, int num)
